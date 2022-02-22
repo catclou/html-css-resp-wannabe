@@ -80,30 +80,45 @@ img {
 
 @media screen and (max-width: 420px) {
   .row {
-    width: 400px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 100px;
+    width: 100%;
+    margin-top: 0;
 }
 
   #lezioni .row > .left, #lezioni .row > .right {
     width: 100%;
-    background-color: #f2f2cd;
+    padding: 10px 0;
   }
 
-  #lezioni > .row > h1 {
+  #lezioni {
     background-color: #f2f2cd;
+    padding: 20px;
   }
+
+  #lezioni .row img {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  img {
+    height: 140px;
+	}
 
   #steps > .row {
     background-color: #ffffff;
   }
 
-  #steps .row > .left, #steps .row > .central, #steps .row > .right {
+  #steps .row>.left, #steps .row>.central, #steps .row>.right {
     width: 100%;
+    padding: 10px 0;
     }
 
-  #why > .row {
+  #why {
     background-color: #f2f2cd;
-  }
+    padding: 20px;
+	}
+
+	#steps {
+    padding: 20px;
+	}
 }
